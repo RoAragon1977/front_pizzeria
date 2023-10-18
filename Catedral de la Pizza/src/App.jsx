@@ -6,12 +6,14 @@ import SignupPage from './page/SignupPage';
 import RecoverPasswordPage from './page/RecoverPasswordPage';
 import AboutUsPage from './page/AboutUsPage';
 import Error404Page from './page/Error404Page';
+import CustonNavbar from './components/navbar';
 
 import './App.css'
 
 function App() {
   return (
       <BrowserRouter>
+      <CustonNavbar />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='administation' element={<AdministrationPage />} />
