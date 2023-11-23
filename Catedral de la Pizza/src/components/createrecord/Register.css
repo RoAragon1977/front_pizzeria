@@ -1,0 +1,13 @@
+.containerRegister {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}

@@ -7,6 +7,7 @@ import RecoverPasswordPage from './page/RecoverPasswordPage';
 import AboutUsPage from './page/AboutUsPage';
 import Error404Page from './page/Error404Page';
 import CustonNavbar from './components/navbar';
+import Footer from './components/footer';
 
 import './App.css'
 
@@ -16,12 +17,13 @@ function App() {
       <CustonNavbar />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='administation' element={<AdministrationPage />} />
+          <Route path='administration' element={<AdministrationPage />} />
           <Route path='signup' element={<SignupPage />}/>
           <Route path='recoverPassword' element={<RecoverPasswordPage />} />
           <Route path='aboutUs' element={<AboutUsPage />} />
           <Route path='*' element={<Error404Page />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     )
 }

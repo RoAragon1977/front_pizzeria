@@ -1,7 +1,10 @@
+import Register from "../components/createrecord";
 
 function SignupPage() {
   return (
-    <div>Signup</div>
+    <div>
+      <Register />
+    </div>
   )
 }
 
